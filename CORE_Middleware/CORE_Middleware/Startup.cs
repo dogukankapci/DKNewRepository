@@ -29,7 +29,7 @@ namespace CORE_Middleware
             {
                 if (context.Request.Path == "/profile")
                 {
-                    await context.Response.WriteAsync("Kullanıcının bilgileri");
+                    await context.Response.WriteAsync("User bilgileri");
                 }
                 else
                 {
